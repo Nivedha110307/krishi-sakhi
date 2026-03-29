@@ -1,87 +1,100 @@
-🌾 Krish-Sakhi
+Got it — you want the **Krish-Sakhi README in the same clean, minimal GitHub style** like your Fourier project (with `#`, short sections, structured bullets). Here you go 👇
 
-A Smart Agriculture & Farmer Support System
+---
 
-📌 Overview
+# Krish-Sakhi
 
-Krish-Sakhi is a digital platform designed to assist farmers with real-time information, resource management, and decision-making tools. It aims to bridge the gap between technology and agriculture by providing timely alerts, data insights, and support services.
+Academic mini-project implementing a smart agriculture and disaster management support system for farmers.
 
-🚀 Features
-🌦️ Weather Updates – Get real-time weather forecasts for better crop planning
-🚨 Disaster Alerts – Early warnings for floods, droughts, and other risks
-🌱 Crop Guidance – Suggestions for suitable crops based on region and season
-📦 Resource Management – Track availability and allocation of farming resources
-📊 Data Visualization – Easy-to-understand insights and reports
-👩‍🌾 Farmer-Friendly Interface – Simple and accessible UI
-🛠️ Tech Stack
+* Real-time disaster alerts and monitoring
+* Resource allocation and management
+* Region-based risk analysis
+* Decision support for agricultural planning
 
-Frontend:
+This project is designed as part of a database/application development course, focusing on practical implementation of data-driven systems for agriculture.
 
-HTML
-CSS
-JavaScript / React
+---
 
-Backend:
+## Tech Stack
 
-Node.js / Express (or your backend tech)
+* HTML, CSS, JavaScript / React
+* Node.js / Express
+* MySQL
+* APIs (Weather, Disaster Data)
 
-Database:
+---
 
-MySQL / MongoDB
+## How to Run
 
-APIs:
+1. **Clone the repository**
 
-Weather API
-Disaster Management API
-📂 Project Structure
-Krish-Sakhi/
-│── frontend/
-│   ├── index.html
-│   ├── styles.css
-│   └── app.js
-│
-│── backend/
-│   ├── server.js
-│   └── routes/
-│
-│── database/
-│   └── schema.sql
-│
-│── README.md
-⚙️ Installation & Setup
-Clone the repository
-git clone https://github.com/your-username/krish-sakhi.git
-cd krish-sakhi
-Install dependencies
-npm install
-Run the project
-npm start
-Open in browser:
-http://localhost:3000
-📊 Database Modules
-Location Management
-Disaster Tracking
-Alerts System
-Resource Allocation
-Region Risk Analysis
-🎯 Objectives
-Improve agricultural productivity
-Provide real-time disaster awareness
-Optimize resource usage
-Support farmers with data-driven decisions
-📸 Screenshots (Optional)
+2. **Install dependencies**
 
-Add your UI screenshots here
+3. **Run backend server**
 
-🤝 Contributors
-Nivedha M
-Team Members
-📜 License
+4. **Run frontend**
 
-This project is for educational purposes.
+* Open in browser or use development server
 
-💡 Future Enhancements
-AI-based crop prediction
-Mobile app integration
-Multilingual support
-IoT-based field monitoring
+---
+
+## Features
+
+* Disaster tracking and alert system
+* Location-based risk zone identification
+* Resource management and allocation
+* Database-driven queries and reports
+* User-friendly interface for monitoring
+
+---
+
+## Project Structure
+
+```
+krish-sakhi/
+src/
+  frontend/
+    index.html
+    styles.css
+    app.js
+  backend/
+    server.js
+    routes/
+    controllers/
+database/
+  schema.sql
+report/
+  project-report.pdf
+README.md
+```
+
+---
+
+## Theory (Short)
+
+* Uses database systems to manage disaster, location, and resource data
+* Implements relationships between entities like Disaster, Alerts, and Resources
+* Supports real-time querying and decision-making
+* Focuses on efficient data retrieval and normalization
+
+---
+
+## Demo Scope
+
+* Database creation and table operations
+* Alert generation and monitoring
+* Resource allocation handling
+* Query execution for reports
+
+---
+
+## Future Enhancements
+
+* AI-based crop recommendations
+* Mobile application support
+* Live weather API integration
+* SMS/notification alerts
+
+---
+
+If you want, I can also **add exact commands (like your Python project style)** or tailor it specifically to your **DA2 evaluation rubric** 👍
